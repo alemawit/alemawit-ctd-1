@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alemawit Woldu Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+    <header>
+            <nav id="header-nav">
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Connect">Connect</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                </ul>
+            </nav>
+    </header>
     <h1>Alemawit Woldu</h1>
+    <img src="images/image.png" alt="portriat of  Alemawit Woldu" width="200">
     <section id="About">
         <h2>About</h2>
         <p>Hello! I'm Alemawit Woldu, a passionate web developer with experience in front-end technologies. I enjoy creating user-friendly and visually appealing websites.</p> 
@@ -14,25 +28,62 @@
     <section id="Experience">      
         <h2>Experience</h2>
         <ul>
-            <li>Front-End Developer at XYZ Company (2020 - Present)</li>
-            <li>Web Developer Intern at ABC Agency (2019 - 2020)</li>
+            <li class="experiance item">
+                <div class="job-header">
+                    <h3>Front-End Developer at XYZ Company</h3>
+                    <span>2020 - Present</span>
+                </div>
+                <p>Develop and maintain responsive web applications.</p>
+            </li>
+            <li class="experiance item">
+                <div class="job-header">
+                    <h3>Web Developer Intern at ABC Agency</h3>
+                    <span>2019 - 2020</span>
+                </div>
+                <p>Assisted with building and maintaining websites.</p>
+            </li>
         </ul>
     </section>
     <section id="Connect">
         <h2>Connect</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/in/alemawit-woldu">LinkedIn</a></li>
-            <li><a href="https://github.com/alemawit">GitHub</a></li>
-            <li><a href="mailto:alemawit.woldu@gmail.com">Email</a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/alemawit-woldu"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my LinkedIn profile">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/YOUR-USERNAME" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Visit my GitHub profile"
+                >
+                <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </li>
+            <li>
+                <a href="mailto:alemawit.woldu@gmail.com" 
+                    aria-label="Send me an email"
+                >
+                    <i class="fa-solid fa-envelope"></i>Email
+                </a>
+            </li>
         </ul>   
     </section>
-    <nav>
+    <section id="Skills">
+        <h2>Skills</h2>
         <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Connect">Connect</a></li>
+        
         </ul>
-    </nav>
-    <img src="./../image.png" alt="Alemawit Woldu" width="200">
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <ul>
+        
+        </ul>
+    </section>
 </body>
 </html>
