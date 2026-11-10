@@ -1,0 +1,94 @@
+/* change the background color  and font */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  list-style: none;
+text-decoration: none;
+  
+}
+/* remove the underline from the nav */
+#header-nav ul
+{
+    list-style: none;
+}
+#header-nav a
+{
+    text-decoration: none;
+}
+/* change the text color */
+h1, h2, p {
+    color: #333;
+}
+/* add padding and margin between sections */
+section {
+    padding: 10px;
+    margin: 10px 0;
+}
+/* change the alignment of one section */
+section#About {
+    text-align: center;
+}
+
+/* change the font size ,weight and color of headings */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+/* transform the experience section in to a styled list */
+#Experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-item {
+    margin-bottom: 25px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-header h3 {
+    margin: 0;
+}
+
+.job-header span {
+    color: gray;
+}
+
+.experience-item p {
+    margin-top: 10px;
+}
+/* transform the connect links */
+#Connect ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+#Connect li {
+    margin: 0;
+}
+
+#Connect a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
