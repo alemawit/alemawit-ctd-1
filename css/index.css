@@ -92,3 +92,18 @@ h2 {
     align-items: center;
     gap: 8px;
 }
+/* styling the skills section */
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+#Skills li {
+    background-color: #0059ffad;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+} 
