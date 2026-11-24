@@ -107,3 +107,33 @@ h2 {
     padding: 5px 10px;
     border-radius: 5px;
 } 
+/* style the message form fields and buttons */
+#LeaveAMessage form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#LeaveAMessage label {
+    font-weight: bold;
+}
+
+#LeaveAMessage input,
+#LeaveAMessage textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#LeaveAMessage button {
+    background-color: #0059ffad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#LeaveAMessage button:hover {
+    background-color: #0059ff;
+}
