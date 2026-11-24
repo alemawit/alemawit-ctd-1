@@ -21,7 +21,7 @@ const messageForm = document.querySelector("form[name='leave_message']");
 messageForm.addEventListener("submit", function (event) {
   event.preventDefault();
   const name = event.target.usersName.value;
-  const email = event.target.email.value;
+  const email = event.target.usersEmail.value;
   const message = event.target.usersMessage.value;
   console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
   const messageSection = document.getElementById("messages");
@@ -39,14 +39,13 @@ messageForm.addEventListener("submit", function (event) {
   // add a remove button to the message
   const removeButton = document.createElement("button");
   removeButton.innerText = "Remove";
+  removeButton.type = "button";
   removeButton.addEventListener("click", function () {
     const entry = removeButton.parentNode;
     entry.remove();
   });
   newMessage.appendChild(removeButton);
 
-  messageSection.style.display = "block";
-  messageForm.reset();
   //edit button
   const editButton = document.createElement("button");
   editButton.innerText = "Edit";
