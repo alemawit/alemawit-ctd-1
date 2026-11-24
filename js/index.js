@@ -38,7 +38,7 @@ messageForm.addEventListener("submit", function (event) {
   newMessage.appendChild(messageText);
   // add a remove button to the message
   const removeButton = document.createElement("button");
-  removeButton.innerText = "Remove";
+  removeButton.innerText = "remove";
   removeButton.type = "button";
   removeButton.addEventListener("click", function () {
     const entry = removeButton.parentNode;
